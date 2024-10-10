@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.example.myapp";
+option java_outer_classname = "UserPreferences";
+
+message UserPreferences {
+  string profession = 1;
+  string description = 2;
+  bool is_happy = 3;
+}
